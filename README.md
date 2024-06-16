@@ -11,7 +11,7 @@ pip install SpeechRecognition
 
 ## How to run:
 
-> **Note:** The video file should be in the `data` folder.
+> **Note:** The video file should be in the `data` folder and the file name should be `video.mp4`.
 
 
 ### Development Environment:
