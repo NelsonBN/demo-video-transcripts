@@ -1,0 +1,10 @@
+services:
+
+  transcript-app:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    image: technobre/transcript-app
+    container_name: transcript-app
+    volumes:
+      - ./data/:/data:rw
